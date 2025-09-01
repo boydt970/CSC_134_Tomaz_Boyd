@@ -1,6 +1,6 @@
 //@author: Tomaz Boyd
 //@date: 09/1/2025
-//@purpose: This program calculates the product of 2 floating-point values
+//@purpose: This program holds a long number
 
 //include the iostream directive
 #include <iostream>
