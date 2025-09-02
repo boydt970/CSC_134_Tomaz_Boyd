@@ -18,7 +18,7 @@ int main()
    age = "25 ";//string containing age
    verbiage_end = "years old!";//containing years old
    //prints today i am 25 years old!
-   cout << verbiage << age << verbiage_end << endl;
+   std::cout << verbiage << age << verbiage_end << std::endl;
    
     return 0;
 }
