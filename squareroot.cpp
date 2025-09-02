@@ -12,7 +12,6 @@ using namespace std;
 int main()
 {
     double num1 = 90;
-    double num2 = 0;
     double SquareRoot = sqrt(num1);
     //prints comment from 2 numbers above
     std::cout << "The Squareroot of " << num1 << " is " << SquareRoot << std::endl;
