@@ -1,6 +1,6 @@
 //@author: Tomaz Boyd
-//@date: 09/1/2025
-//@purpose: This program converts fahrenheit to celsius
+//@date: 09/3/2025
+//@purpose: This program finds volume of sphere
 
 //include the iostream directive
 #include <iostream>
