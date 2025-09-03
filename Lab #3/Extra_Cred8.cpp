@@ -1,6 +1,6 @@
 //@author: Tomaz Boyd
 //@date: 09/3/2025
-//@purpose: This program finds volume of sphere
+//@purpose: This program finds area of a house
 
 //include the iostream directive
 #include <iostream>
@@ -14,10 +14,10 @@ int main()
     double Length;
     double Width;
     double A;
-    Length = 50;//pi math measurement
-    Width = 32;//radius 7 to the 3rd power
-    A = Length * Width;//equation to determine volume
-    //printing volume of a sphere
+    Length = 50;//length of house
+    Width = 32;//width of house
+    A = Length * Width;//equation to determine area 
+    //printing area of a house
     std::cout << "The area of the house equals " << A << " square foot." << std::endl;
 
     return 0;
