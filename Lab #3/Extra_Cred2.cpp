@@ -1,6 +1,6 @@
 //@author: Tomaz Boyd
 //@date: 09/1/2025
-//@purpose: This program prints Hi!
+//@purpose: This program makes today i am years old 
 //include the iostream directive
 #include <iostream>
 #include <string>
