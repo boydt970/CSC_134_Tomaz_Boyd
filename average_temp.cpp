@@ -11,6 +11,7 @@ using namespace std;
 //define the main() function/method
 int main()
 {
+    //Variables to be assigned
     double newyork;
     double newyorkaverage;
     double denver;
@@ -18,15 +19,16 @@ int main()
     double phoenix;
     double phoenixaverage;
     double change;
-    
+    //Assigning variables temps
     newyork = 85.0;
     denver = 88.0;
     phoenix = 106.0;
     change = .02;
+    //Increasing recent temps by 2 percent
     newyorkaverage = newyork + (newyork * change);
     denveraverage = denver + (denver * change);
     phoenixaverage = phoenix + (phoenix * change);
-    //prints comment from 2 numbers above
+    //Prints averages of july high temps and temps increased by 2%
     std::cout << "Average of july high tempteratures are " << std::endl;
     std::cout << "New York City = " << newyork << " degrees" << std::endl;
     std::cout << "Denver = " << denver << " degrees" << std::endl;
