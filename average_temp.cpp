@@ -1,6 +1,6 @@
 //@author: Tomaz Boyd
-//@date: 08/27/2025
-//@purpose: This program calculates the product of two numbers
+//@date: 09/4/2025
+//@purpose: This program calculates averages temps of july in 3 citys and an average increase of 2 percent
 
 //include the iostream directive
 #include <iostream>
