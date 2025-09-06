@@ -19,7 +19,7 @@ int main()
     cout << "what is your current interest rate: ";
     cin >> interest;//user input
     
-    newinterest = (interest / 100) / 12;//interest calculation program
+    newinterest = (interest / 100) / 12;//interest calculation program convert percentage to decimal
     double nextdue = balance + (newinterest * balance);// calculation for interest add on
     double interestincrease = newinterest * balance;
     //prints next months interest
