@@ -12,7 +12,7 @@ using namespace std;
 int main()
 {
     int num1 = 90;
-    int num2 = 0;
+    int num2 = 10;
     int quotient = num1 / num2;
     //prints comment from 2 numbers above
     std::cout << quotient << std::endl;
