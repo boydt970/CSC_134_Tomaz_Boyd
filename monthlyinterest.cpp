@@ -39,7 +39,10 @@ int main()
     nextdue += interestincrease;
     nextdue -= subtract;
     count++;
-    
+    if (nextdue < 0)
+            nextdue = 0;
+    if (subtract <= interestincrease)
+    cout << "Your payment is too low to cover the monthly interest. " << endl;
     cout << count << ": " << nextdue << " you paid " << interestincrease << " in interest" << endl;
     }
     cout << "At a paymemt of " << subtract << " dollars your balance will be finished in " << count << " months." << endl;
