@@ -1,6 +1,6 @@
 //@author: Tomaz Boyd
-//@date: 09/4/2025
-//@purpose: This program determines score
+//@date: 09/10/2025
+//@purpose: This program determines test score
 
 //include the iostream directive
 #include <iostream>
@@ -18,25 +18,29 @@ int main()
     cout << "please submit your 3 numbers for your average: ";
     cin >> num1 >> num2 >> num3;//user input
     average = (num1 + num2 + num3) / 3;// average calculation
-    if (average >= 90)
+    if (average >= 90 && average <=100)
     {
     cout << "Your letter grade is a A";
     }
-    else if (average >= 80)
+    else if (average >= 80 && average <=89)
     {
     cout << "Your letter grade is a B";
     }
-    else if (average >= 70)
+    else if (average >= 70 && average <=79)
     {
     cout << "Your letter grade is a C";
     }
-    else if (average >= 60)
+    else if (average >= 60 && average <=69)
     {
     cout << "Your letter grade is a D";
     }
-    else 
+    else if (average >= 0 && average <=59)
     {
     cout << "Your letter grade is a F";
+    }
+    else
+    {
+    cout << "";
     }
 
     return 0;
