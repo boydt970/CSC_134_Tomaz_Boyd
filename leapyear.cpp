@@ -12,12 +12,15 @@ using namespace std;
 int main()
 {   
 
-int input, leapyear;
+int input;
 
-cout << "Enter the year";
+cout << "Enter the year: \n";
 cin >> input;
-if (input / leapyear == 0)
-    cout << input << " is a leap year" << endl
-    else if (input * 4 < 100)
+if ((input % 400 == 0) || (input % 4 == 0 && input % 100 != 0)){
+        cout << "The year you entered " << input << " is a leap year." << endl;
+    } else {
+        cout << "The year you entered " << input << " is NOT a leap year." << endl;
+    }
+
     return 0;
 }
