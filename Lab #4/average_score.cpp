@@ -1,5 +1,5 @@
 //@author: Tomaz Boyd
-//@date: 09/4/2025
+//@date: 09/18/2025
 //@purpose: This program determines average score
 
 //include the iostream directive
