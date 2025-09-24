@@ -15,7 +15,7 @@ int main()
 { 
     const int MIN = 0;
 
-    int NUM,INPUT,loop;
+    int NUM,INPUT,loop;   
     loop = 0;    
     INPUT = 0;
 
