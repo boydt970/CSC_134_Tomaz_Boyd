@@ -15,7 +15,7 @@ int main()
 { 
     const int MIN = 0;
 
-    int NUM,max,INPUT,loop;
+    int NUM,INPUT,loop;
     loop = 0;    
     INPUT = 0;
 
@@ -23,9 +23,9 @@ int main()
     
     cin >> INPUT;
     
-    for(max = 0; max <= INPUT; max++){
-    cout << max <<"\n"<<endl;
+    for(int max = 0; max <= INPUT - 1; max++){
+    cout << max <<" "<< endl;
     loop++;
     }
-    //cout <<"you looped "<< loop << " times";
+    cout <<"you looped "<< loop << " times";
   }
