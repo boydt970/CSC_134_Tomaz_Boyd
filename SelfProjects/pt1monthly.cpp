@@ -12,16 +12,19 @@ using namespace std;
 int main()
 {   
 
-    double balance,interest,newinterest;
-    double subtract;
+    double balance,interest,newinterest,subtract;
+    balance = 0;
+    interest = 0;
+    newinterest = 0;
+    subtract = 0;
     int count = 0;
-    cout << "what is your current balance: ";
+    cout << "What is your current balance: $ ";
     cin >> balance;//user input
 
-    cout << "what is your current interest rate: ";
+    cout << "What is your current interest rate (ex: 16.99): ";
     cin >> interest;//user input
     
-    cout << "payment you'd like to make monthly: ";
+    cout << "Payment: $ ";
     cin >> subtract;//user input
 
     newinterest = (interest / 100) / 12;//interest calculation program convert percentage to decimal
