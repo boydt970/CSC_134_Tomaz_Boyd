@@ -13,7 +13,7 @@ using namespace std;
 //define the main() function/method
 int main()
 { 
-    const int MIN = 0;
+  
     
 
     int NUM,loop,MAX;

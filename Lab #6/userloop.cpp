@@ -13,9 +13,9 @@ using namespace std;
 //define the main() function/method
 int main()
 { 
-    const int MIN = 0;
+  
 
-    int NUM,INPUT,loop;   
+    int INPUT,loop;   
     loop = 0;    
     INPUT = 0;
 
