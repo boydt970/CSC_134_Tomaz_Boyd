@@ -4,6 +4,7 @@
 
 //include the iostream directive
 #include <iostream>
+#include <fstream>
 
 //use the standard namespace 
 using namespace std;
@@ -15,6 +16,7 @@ int main()
     double balance,interest,newinterest;
     double subtract;
     int count = 0;
+
     cout << "what is your current balance: ";
     cin >> balance;//user input
 
@@ -28,13 +30,17 @@ int main()
     double nextdue = balance + (newinterest * balance);// calculation for interest add on
     double interestincrease = newinterest * balance;
     balance == nextdue;
+
     //prints next months interest
     std::cout << "Next months balance is " << nextdue << " dollars." << std::endl;
     std::cout << "You paid a total of " << interestincrease << " dollars in interest for the month." << std::endl;
-    
+
+    ofstream outputfile;
+    outputfile.open("finace.txt");
+    outputfile << "Your balance of $" << balance << endl;
+
     while (nextdue > 0)
     {
-        ;// calculation for interest add on
     interestincrease = newinterest * nextdue;
     nextdue += interestincrease;
     nextdue -= subtract;
@@ -44,16 +50,14 @@ int main()
     if (subtract <= interestincrease)
     cout << "Your payment is too low to cover the monthly interest. " << endl;
     cout << count << ": " << nextdue << " you paid " << interestincrease << " in interest" << endl;
+    
+    outputfile << "Month " << count << " with your payment of $" << subtract << " Your next due will be $" << nextdue << " With an increase of $" << interestincrease << " in interest" << endl;
+    
     }
+
+    outputfile << "In " << count << " months your initial balance of " << balance << " will be paid" << endl;
+    outputfile.close();
     cout << "At a paymemt of " << subtract << " dollars your balance will be finished in " << count << " months." << endl;
 
-    //if (balance > 0)
-    //while (balance >= 0) {
-        //(balance -= subtract) * newinterest;
-        //for (count = 0; count < 5; count++)
-        //(nextdue - subtract) * newinterest;
-    
-    //cout << balance << endl;
-    //balance - 500; 
     return 0;
 } 
