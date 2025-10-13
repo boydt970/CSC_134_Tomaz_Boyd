@@ -1,0 +1,28 @@
+
+tomaz
+***********************************************
+Your balance of $4500
+Month 1 with your payment of $500 Your next due will be $4212.45 With an increase of $107.45 in interest
+Month 2 with your payment of $500 Your next due will be $3810.74 With an increase of $98.2905 in interest
+Month 3 with your payment of $500 Your next due will be $3399.66 With an increase of $88.9173 in interest
+Month 4 with your payment of $500 Your next due will be $2978.98 With an increase of $79.3253 in interest
+Month 5 with your payment of $500 Your next due will be $2548.49 With an increase of $69.5096 in interest
+Month 6 with your payment of $500 Your next due will be $2107.96 With an increase of $59.4648 in interest
+Month 7 with your payment of $500 Your next due will be $1657.14 With an increase of $49.1857 in interest
+Month 8 with your payment of $500 Your next due will be $1195.81 With an increase of $38.6667 in interest
+Month 9 with your payment of $500 Your next due will be $723.712 With an increase of $27.9022 in interest
+Month 10 with your payment of $500 Your next due will be $240.599 With an increase of $16.8866 in interest
+Month 11 with your payment of $500 Your next due will be $0 With an increase of $5.61397 in interest
+In 11 months your initial balance of $4500 will be paid
+
+tomaz
+***********************************************
+Your balance of $3000
+Month 1 with your payment of $500 Your next due will be $2641.63 With an increase of $71.6333 in interest
+Month 2 with your payment of $500 Your next due will be $2203.27 With an increase of $61.6381 in interest
+Month 3 with your payment of $500 Your next due will be $1754.68 With an increase of $51.4097 in interest
+Month 4 with your payment of $500 Your next due will be $1295.62 With an increase of $40.9426 in interest
+Month 5 with your payment of $500 Your next due will be $825.855 With an increase of $30.2312 in interest
+Month 6 with your payment of $500 Your next due will be $345.125 With an increase of $19.2699 in interest
+Month 7 with your payment of $500 Your next due will be $0 With an increase of $8.05291 in interest
+In 7 months your initial balance of $3000 will be paid

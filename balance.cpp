@@ -23,7 +23,7 @@ int main()
     int Date;
     std::string Name;
     std::string star;
-    star = "***********************************************";
+    star = "--------------------------------------------------------------------------------------";
     time_t now = time(0);
 
     cout << "How many balances do you have? ";
@@ -32,8 +32,11 @@ int main()
     cout << "Name?\n";
     cin >> Name;
 
-    for(count = 0; count <= numberof; count++){
+    for(count = 0; count < numberof; count++){
     
+    if (num > count)
+    num = 0;
+
     for(int loop = 0; loop < 1; loop++){
     
 
@@ -69,8 +72,8 @@ int main()
     nextdue += interestincrease;
     nextdue -= subtract;
     savings = subtract - nextdue;
-    count++;
     num++;
+
     if (nextdue < 0)
             nextdue = 0;
     if (subtract <= interestincrease)
@@ -84,12 +87,13 @@ int main()
     
     }
 
-    outputfile << "In " << count << " months your initial balance of $" << balance << " will be paid" << endl;
+    outputfile << "In " << num << " months your initial balance of $" << balance << " will be paid" << endl;
     outputfile.close();
-    cout << "At a paymemt of $" << subtract << " dollars your balance will be finished in " << count << " months." << endl;
+    cout << "At a paymemt of $" << subtract << " dollars your balance will be finished in " << num << " months." << endl;
     }
+}
     return 0;
 } 
 
-    }
+    
     
