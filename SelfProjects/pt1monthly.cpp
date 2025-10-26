@@ -12,11 +12,12 @@ using namespace std;
 int main()
 {   
 
-    double balance,interest,newinterest,subtract;
+    double balance,interest,newinterest,subtract, balance2;
     balance = 0;
     interest = 0;
     newinterest = 0;
     subtract = 0;
+    balance2 = 0;
     int count = 0;
     cout << "What is your current balance: $ ";
     cin >> balance;//user input
@@ -30,9 +31,9 @@ int main()
     newinterest = (interest / 100) / 12;//interest calculation program convert percentage to decimal
     double nextdue = balance + (newinterest * balance);// calculation for interest add on
     double interestincrease = newinterest * balance;
-    balance == nextdue;
+    balance2 = nextdue - subtract;
     //prints next months interest
-    std::cout << "Next months balance is " << nextdue << " dollars." << std::endl;
+    std::cout << "Next months balance is " << balance2 << " dollars." << std::endl;
     std::cout << "You paid a total of " << interestincrease << " dollars in interest for the month." << std::endl;
 
     return 0; 
