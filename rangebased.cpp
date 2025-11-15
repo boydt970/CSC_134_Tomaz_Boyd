@@ -1,6 +1,6 @@
 //@author: Tomaz Boyd
 //@date: 11/05/2025
-//@purpose: This program uses ranged based 
+//@purpose: not finished 
 
 //include the iostream directive
 #include <iostream> 
@@ -15,18 +15,47 @@ using namespace std;
 
 //define the main() function/method
 int main()
-{    int num= 16;
-    int y=0,m=2,b=3,x=0;
-    string space = " ";
+{       int m = 2;
+        int b = 3;
+        int x[] = {4,3,2,1};
+        int count = 0;
+        int y [4];
+        cout << "x | y" << endl;
+        cout << "_____" << endl;
 
-    for (int i = 15; i > 0; i--)
-    {cout << i << "|\n";
-        if (i<=4 && i>=0){
-        x=i;
-        int y = m * x + b;
-        cout << "X";
-    }}
+        for(int x_position : x){
+            y[count]=(m*x_position)+b;
+            cout << x_position << " | "<< y[count] << endl;
+            count++;
+        }
+        cout << "\n\n";
+
+    for (int i = 15; i > 0; i--){
+        cout << "_";
+        cout << i ;
+        bool completed = false;
     
-    for (int i = 1; i < 16; i++)
-    {cout << i << "|";}
+        for (int b = 4; b>=0; b--){
+        int point = (m * x[i]) + b;
+        cout << i << "|";
+        if (point == i){
+            cout << i << "|";
+        for(int c = 0; c < point -2; c++){
+            if(x[b] > 0){
+                cout << " ";
+            }
+        }
+        cout << "X" <<endl;
+        completed = true;
+        }
+    }
+    if (completed == false){
+        cout << i << "|" <<endl;}
+    }
+    cout << " ";
+        for(int d = 0; d < 20; d++){
+            cout << "|";
+            cout << d;
+        }
+        return 0;
 }
