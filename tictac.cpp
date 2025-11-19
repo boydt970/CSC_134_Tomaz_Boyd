@@ -38,6 +38,8 @@ int main()
     else{ 
     player = "Player 2";}
 
+    
+
     cout << "The board is laid out in 3 rows and 3 coloums" << endl;
     cout << "To make a placement type one of these positions" << endl;
     cout << "[0][0],[0][1],[0][2]" << endl;
