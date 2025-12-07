@@ -7,7 +7,7 @@
 int ledRed = 2;
 int ledGreen = 4;
 
-int failDelay = 2000;
+int failDelay = 3000;
 int successDelay = 3000;
 
 const byte ROWS = 4;
@@ -61,14 +61,6 @@ void loop()
         delay(successDelay);
         digitalWrite(ledGreen,LOW);
         keyPressCount = 0;//reset the counter
-      }
-      else{
-        Serial.println("Invalid Password Entered! Please try again.");
-        digitalWrite(ledRed,HIGH);
-        delay(failDelay);
-        digitalWrite(ledRed,LOW);
-        keyPressCount = 0;//reset the counter
-        
       }
 
      
